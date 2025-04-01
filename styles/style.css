@@ -48,6 +48,16 @@
   bottom: 30px;
 }
 
+.content {
+  width: 80%;
+  min-width: 784;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 900px;
+  right: 20px;
+}
+
 .header__main-illustration {
   width: 756px;
   height: 608px;
