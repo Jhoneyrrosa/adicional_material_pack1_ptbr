@@ -20,6 +20,7 @@
   min-height: 600px;
   max-height: 756px;
   position: relative;
+  background-color: #f2f2f2;
 }
 
 .logo_place_header {
@@ -46,16 +47,6 @@
   position: absolute;
   left: 64px;
   bottom: 30px;
-}
-
-.content {
-  width: 80%;
-  min-width: 784;
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  top: 900px;
-  right: 20px;
 }
 
 .header__main-illustration {
@@ -89,4 +80,126 @@ configurar estilos para elementos*/
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.content {
+  box-sizing: border-box;
+  margin: 150px 0;
+}
+
+.description {
+  margin: 10px auto;
+}
+
+.descripition__two-columns {
+  display: flex;
+  margin: 0 64px;
+  justify-content: space-between;
+}
+
+.descripition__brief {
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.descripition__brief:hover {
+  color: chartreuse;
+}
+
+.descrition-columns__main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
+}
+
+.digits {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 50px 0;
+  position: relative;
+}
+
+.title__digits {
+  width: 60%;
+  margin-top: 50px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 20%;
+}
+
+.subtitle__digits {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 140px;
+  right: 38%;
+}
+
+.table-cards__digits {
+  width: 1100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  padding: 30px;
+  position: absolute;
+  bottom: 100px;
+  left: 14%;
+}
+
+.table-card__digits {
+  width: 250px;
+}
+.table-card__digits:hover {
+  background-color: rgb(245, 244, 244);
+}
+
+.title-card {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+.paragraph-card {
+  padding: 15px 0;
+  line-height: 1.12;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.feynman {
+  background-color: #2f80ed;
+  width: 100%;
+  height: 790px;
+  box-sizing: border-box;
+
+  position: relative;
+}
+
+.image-feynman__feynman {
+  width: 867px;
+  height: 637px;
+  background-image: url(../images/feynman.png);
+  background-size: cover;
 }
