@@ -346,6 +346,9 @@ configurar estilos para elementos*/
 
 .footer__column-heading {
   margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .footer__list {
@@ -354,10 +357,13 @@ configurar estilos para elementos*/
   margin: 0;
   padding: 0;
   flex-direction: column;
-  row-gap: 16px;
+  row-gap: 10px;
 }
 
 .footer__list-item {
+  line-height: 30px;
+  font-size: 15px;
+  font-weight: normal;
 }
 
 .footer__social-icon {
@@ -367,7 +373,7 @@ configurar estilos para elementos*/
 
 .footer__column-link {
   display: flex;
-  color: rgb(135, 135, 221);
+  color: rgb(107, 107, 240);
   text-decoration: none;
   align-items: center;
   column-gap: 10px;
@@ -375,6 +381,6 @@ configurar estilos para elementos*/
 }
 
 .footer__author {
-  margin-top: 100px;
+  margin-top: 120px;
   font-size: 20px;
 }
